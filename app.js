@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }))
 app.use(bodyParser.json())
-app.options('*', cors())
+app.use(cors())
 
 app.get('/', (req, res) => {
   res.send("Hello World")
