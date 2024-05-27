@@ -166,9 +166,10 @@ ipaddr.js@1.9.1:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
 
-jssha@^2.3.0:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/jssha/-/jssha-2.4.2.tgz#d950b095634928bd6b2bda1d42da9a3a762d65e9"
+jssha@^3.1.2:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jssha/-/jssha-3.3.1.tgz#c5b7fc7fb9aa745461923b87df0e247dd59c7ea8"
+  integrity sha512-VCMZj12FCFMQYcFLPRm/0lOBbLi8uM2BhXPTqw3U4YAfs4AZfiApOoBLoN8cQE60Z50m1MYMTQVCfgF/KaCVhQ==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -297,11 +298,12 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
 
-totp-generator@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/totp-generator/-/totp-generator-0.0.8.tgz#3a18dc5060b54ce486e07c8968f039d62a174ab8"
+totp-generator@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/totp-generator/-/totp-generator-0.0.14.tgz#c136bcb4030f9cab5b10ecd82d15cd2d5518234a"
+  integrity sha512-vFZ8N2TdF4mCj8bUW460jI73LqS+JKccsZ8cttQSuXa3dkTmZo8q81Pq2yAuiPxCI5fPfUrfaKuU+7adjx5s4w==
   dependencies:
-    jssha "^2.3.0"
+    jssha "^3.1.2"
 
 type-is@~1.6.17, type-is@~1.6.18:
   version "1.6.18"
